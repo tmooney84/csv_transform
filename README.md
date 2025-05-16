@@ -3,6 +3,7 @@
 This project includes three different files that parse through and process CSV data into a JSON file. 
 
 1) data_transform.c - This file parses through a CSV file transform particular pieces of data with the format: 
+
 Input: "Gender,FirstName,LastName,UserName,Email,Age,City,Device,Coffee Quantity,Order At\nMale,Carl,Wilderman,carl,wilderman_carl@yahoo.com,29,Seattle,Safari iPhone,2,2020-03-06 16:37:56\nMale,Marvin,Lind,marvin,marvin_lind@hotmail.com,77,Detroit,Chrome Android,2,2020-03-02 13:55:51\nFemale,Shanelle,Marquardt,shanelle,marquardt.shanelle@hotmail.com,21,Las Vegas,Chrome,1,2020-03-05 17:53:05\nFemale,Lavonne,Romaguera,lavonne,romaguera.lavonne@yahoo.com,81,Seattle,Chrome,2,2020-03-04 10:33:53\nMale,Derick,McLaughlin,derick,mclaughlin.derick@hotmail.com,47,Chicago,Chrome Android,1,2020-03-05 15:19:48\n"
 
     and the output becomes:
@@ -18,7 +19,11 @@ Input: "Gender,FirstName,LastName,UserName,Email,Age,City,Device,Coffee Quantity
 In order to download this set of parsing files:
 
 using SSH:
+```
 git clone git@github.com:tmooney84/csv_transform.git
+```
 
 using https:
+```
 git clone https://github.com/tmooney84/csv_transform.git
+```
